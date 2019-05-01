@@ -9,6 +9,7 @@ function landCard(props) {
         alt={props.name}
         src={props.image}
         value={props.id}
+        selected={props.selected}
         onClick={() => props.selectedLand(props.id)} />
     </div>
 
